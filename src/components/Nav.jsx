@@ -7,8 +7,7 @@ const Nav = () => {
         <div className='left'>
             <h1>Masul Gousiya</h1>
         </div>
-        <div className='right'id='navLinks'>
-            <a><h2>HOME</h2></a>
+        <div className='right'>
             <a href="#about"><h2>ABOUT</h2></a>
             <a href='#skills'><h2>SKILLS</h2></a>
             <a href="#projects"><h2>PROJECTS</h2></a>

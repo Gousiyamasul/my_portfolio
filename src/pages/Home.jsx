@@ -10,8 +10,8 @@ const Home = () => {
                 <h3 id='deg'>Computer Science Engineering Graduate</h3>
                 <h2 id='ed'>I'm a Python Full Stack Developer</h2>
                 <p id='appli'>Passionate Python Full Stack Developer focused on building responsive and user-friendly web applications.</p>
-                <a href='#contact'><button>Contact Me</button></a>        
-                <a href='/Resume.pdf' target='_blank' rel='noreferrer'><button>View Resume</button></a>
+                <a href='#contact'><button>Contact Me</button></a>
+                <a href='/Resume.pdf' target='_blank' rel='noreferrer'><button>View Resume</button></a>        
         </div>
     </>
   )
