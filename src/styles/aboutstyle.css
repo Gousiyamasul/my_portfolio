@@ -1,0 +1,30 @@
+#about{
+    text-align:center;
+    font-size: 40px;
+}
+.myself{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.aleft img{
+    margin-left:60px;
+    height: 400px;
+    width: 400px;
+    box-shadow:0px 0px 100px darkviolet;
+    border-radius: 30%;
+}
+.aright{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#desc{
+    margin-bottom: 20px;
+}
+#btech,#inter,#school{
+    color: rgb(13, 165, 199);
+}

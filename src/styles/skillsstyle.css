@@ -1,0 +1,37 @@
+#head{
+    text-align: center;
+    font-size: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+#laptop{
+    margin-left:250px;
+    margin-top: 20px;
+    height: 400px;
+    width: 1000px;
+    box-shadow: 5px 5px 40px black;
+}
+.skills h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.skills li{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+#lang,#web,#db,#tools,#concepts,#lib{
+    border:2px solid black;
+    height: 160px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px black;
+    margin: 20px;
+}

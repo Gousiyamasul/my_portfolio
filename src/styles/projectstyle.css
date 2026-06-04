@@ -1,0 +1,40 @@
+#ph{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#pimg{
+    height:400px;
+    width: 1200px;
+    margin-left: 150px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px darkkhaki;
+    /* margin-bottom: 50px; */
+    margin-top: 50px;
+}
+.pdata{
+    flex-wrap: wrap;
+}
+.phead{
+    color: rgb(13, 165, 199);
+    font-size: 30px;
+    margin: 20px;
+}
+.pmain{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.pmain p{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 60px;
+    width: 1200px;
+    margin-left: 100px;
+    padding: 30px;
+    box-shadow: 5px 5px 1px black;
+}
+#bp,#ep{
+    height: 100px;
+}

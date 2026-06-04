@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image:white;
+    color: black;
+}
+html{
+    scroll-behavior:smooth;
+}
+.all{
+    background-image: radial-gradient(white,rgb(222, 181, 222));
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    box-shadow: -5px -5px 10px darkviolet;
+    transition: all 1s;
+}
+.right a:hover{
+    box-shadow: 5px 5px 10px rgb(245, 2, 245);
+}
+.nav{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin: 20px;
+}
+.right{
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    /* width: 40%; */
+    gap: 20px;
+}
+#foot{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
