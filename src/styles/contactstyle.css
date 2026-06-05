@@ -32,9 +32,13 @@
 .detailsd h2{
     margin: 20px;
 }
-.detailsd a{
+.dark .detailsd a{
     transition: all 1s;
     color: white;
+}
+.light .detailsd a{
+    transition: all 1s;
+    color: black;
 }
 .detailsd a:hover{
     color:green;
