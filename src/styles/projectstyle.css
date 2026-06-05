@@ -12,9 +12,7 @@
     /* margin-bottom: 50px; */
     margin-top: 50px;
 }
-.pdata{
-    flex-wrap: wrap;
-}
+
 .phead{
     color: rgb(13, 165, 199);
     font-size: 30px;
@@ -29,12 +27,13 @@
     font-size: 20px;
     border: 2px solid black;
     border-radius: 20px;
-    height: 60px;
+    height: auto;
     width: 1200px;
     margin-left: 100px;
     padding: 30px;
     box-shadow: 5px 5px 1px black;
 }
-#bp,#ep{
-    height: 100px;
+.dark .pmain p{
+     border: 2px solid white;
+    box-shadow: 5px 5px 1px white;
 }

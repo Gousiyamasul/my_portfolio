@@ -1,44 +1,77 @@
 *{
     margin: 0;
     padding: 0;
-    background-image:white;
-    color: black;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior:smooth;
 }
+
 .all{
+    min-height: 100vh;
     background-image: radial-gradient(white,rgb(222, 181, 222));
-}
-.right a{
-    text-decoration: none;
-    color: white;
-    box-shadow: -5px -5px 10px darkviolet;
-    transition: all 1s;
-}
-.right a:hover{
-    box-shadow: 5px 5px 10px rgb(245, 2, 245);
 }
 .nav{
     height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .left{
     margin: 20px;
 }
 .right{
     display: flex;
-    /* justify-content: space-evenly;
-    align-items: center; */
-    width: 34%;
+    align-items: center;
     gap: 20px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+.right a:hover{
+    box-shadow: 5px 5px 10px darkviolet;
+}
+.theme-btn{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: darkviolet;
+    color: white;
 }
 #foot{
     height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dark{
+    background-color: #121212;
+    color: white;
+}
+.light{
+    background-color: #f6f0f0;
+    color: rgb(25, 1, 1);
+}
+.dark .all{
+    background-image: radial-gradient(#1a1a1a,#2d0b45);
+}
+.dark .right a{
+    color: white;
+}
+.dark .right a:hover{
+    color: violet;
+}
+.dark .theme-btn{
+    background-color: white;
     color: black;
+    /* box-shadow: -5px -5px 10px rgb(92, 89, 89); */
+}
+.theme-btn{
+    height: 40px;
+    margin-top: 6px;
 }

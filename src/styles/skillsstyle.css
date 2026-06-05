@@ -26,7 +26,7 @@
     list-style-type: none;
     text-align: center;
 }
-#lang,#web,#db,#tools,#concepts,#lib{
+.skill-box{
     border:2px solid black;
     height: 160px;
     width: 280px;
@@ -34,4 +34,8 @@
     border-radius: 10px;
     box-shadow: 5px 5px 1px black;
     margin: 20px;
+}
+.dark .skill-box{
+    border:2px solid white;
+    box-shadow: 5px 5px 1px white;
 }
