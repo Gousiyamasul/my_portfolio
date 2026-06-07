@@ -9,36 +9,54 @@ const Skills = () => {
         <div className='skills'>
             <div className='skill-box' id='lang'>
                 <h2>Programming Language</h2>
-                <li>Python</li>
+                <ul>
+                    <li>Python</li>
+                </ul>
+                
             </div>
             <div className='skill-box' id='web'>
                 <h2>Web Technologies</h2>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                </ul>
             </div>
             <div className='skill-box' id='db'>
                 <h2>DataBase</h2>
-                <li>MySQL</li>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
             </div>
             <div className='skill-box' id='tools'>
                 <h2>Developer Tools</h2>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Visual Studio Code</li>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Visual Studio Code</li>
+                </ul>
             </div>
             <div className='skill-box' id='concepts'>
                 <h2>Core Concepts</h2>
-                <li>OOP's</li>
-                <li>CRUD Operations</li>
-                <li>Responsive Web Design</li>
-                <li>REST API's</li>
+                <ul>
+                    <li>OOP's</li>
+                    <li>CRUD Operations</li>
+                    <li>Responsive Web Design</li>
+                    <li>REST API's</li>
+                </ul>
             </div>
             <div className='skill-box' id='lib'>
                 <h2>Libraries</h2>
-                <li>NumPy</li>
-                <li>Pandas</li>
+                <ul>
+                    <li>NumPy</li>
+                    <li>Pandas</li>
+                </ul>
+            </div><div className="skill-box" id='frame'>
+                <h2>Frameworks</h2>
+                <ul>
+                    <li>Flask</li>
+                </ul>
             </div>
         </div>
     
