@@ -5,12 +5,13 @@ const Skills = () => {
     <>    
         
         <h1 id='head'>SKILLS</h1>
-        <img src={skills} id='laptop'></img>
+        <img src={skills} id='laptop' alt="Skills overview"></img>
         <div className='skills'>
             <div className='skill-box' id='lang'>
                 <h2>Programming Language</h2>
                 <ul>
                     <li>Python</li>
+                    <li>JavaScript</li>
                 </ul>
                 
             </div>
@@ -19,7 +20,6 @@ const Skills = () => {
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>JavaScript</li>
                     <li>React.js</li>
                 </ul>
             </div>
@@ -27,6 +27,13 @@ const Skills = () => {
                 <h2>DataBase</h2>
                 <ul>
                     <li>MySQL</li>
+                </ul>
+            </div>
+            <div className="skill-box" id='frame'>
+                <h2>Frameworks</h2>
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
                 </ul>
             </div>
             <div className='skill-box' id='tools'>
@@ -51,11 +58,6 @@ const Skills = () => {
                 <ul>
                     <li>NumPy</li>
                     <li>Pandas</li>
-                </ul>
-            </div><div className="skill-box" id='frame'>
-                <h2>Frameworks</h2>
-                <ul>
-                    <li>Flask</li>
                 </ul>
             </div>
         </div>

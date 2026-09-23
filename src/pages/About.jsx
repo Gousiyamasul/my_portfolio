@@ -15,7 +15,7 @@ const About = () => {
                 professionally. </p>
                 <h2 id='btech'>B.Tech in Computer Science and Engineering </h2>
                 <p>Anantha Lakshmi Institute of Technology & Sciences</p>
-                <p>Percentage: 83.9% </p>
+                <p>Percentage: 83.31% </p>
                 <p>2022 – 2026</p>
                 <h2 id='inter'>Intermediate (MPC)</h2>
                 <p>Sri Chaitanya Junior College</p>

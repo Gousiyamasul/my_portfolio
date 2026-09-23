@@ -6,12 +6,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.aleft{
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
 }
 .aleft img{
-    margin-left:60px;
+    margin-left: 60px;
     height: 400px;
     width: 400px;
+    max-width: 80vw;
+    max-height: 80vw;
     box-shadow:0px 0px 100px darkviolet;
     border-radius: 30%;
 }
@@ -21,10 +31,36 @@
     margin-right: 100px;
     text-align: center;
     flex-wrap: wrap;
+    flex: 1 1 300px;
 }
 #desc{
     margin-bottom: 20px;
 }
 #btech,#inter,#school{
     color: rgb(13, 165, 199);
+}
+
+@media (max-width: 900px) {
+  .aleft img{
+      margin-left: 0;
+  }
+  .aright{
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about{
+      font-size: 30px;
+  }
+  .aright{
+      margin-left: 16px;
+      margin-right: 16px;
+      font-size: 18px;
+  }
+  .aleft img{
+      width: 260px;
+      height: 260px;
+  }
 }

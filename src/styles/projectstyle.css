@@ -4,15 +4,14 @@
     margin-bottom: 20px;
 }
 #pimg{
-    height:400px;
-    width: 1200px;
-    margin-left: 150px;
+    height:auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 0;
+    display: block;
     border-radius: 40px;
     box-shadow: 5px 5px 20px darkkhaki;
-    /* margin-bottom: 50px; */
-    margin-top: 50px;
 }
-
 .phead{
     color: rgb(13, 165, 199);
     font-size: 30px;
@@ -21,6 +20,7 @@
 .pmain{
     margin-top: 50px;
     margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
 }
 .pmain p{
@@ -28,12 +28,41 @@
     border: 2px solid black;
     border-radius: 20px;
     height: auto;
-    width: 1200px;
-    margin-left: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
     box-shadow: 5px 5px 1px black;
 }
 .dark .pmain p{
      border: 2px solid white;
     box-shadow: 5px 5px 1px white;
+}
+
+@media (max-width: 768px) {
+  #ph{
+      font-size: 32px;
+  }
+  .pmain{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .phead{
+      font-size: 24px;
+  }
+  .pmain p{
+      font-size: 18px;
+      padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #pimg{
+      border-radius: 20px;
+  }
+  .pmain p{
+      padding: 16px;
+      font-size: 16px;
+  }
 }

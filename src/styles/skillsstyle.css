@@ -6,15 +6,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
-    height: 80vh;
+    padding: 60px 20px;
 }
 #laptop{
-    margin-left:250px;
-    margin-top: 20px;
-    height: 400px;
-    width: 1000px;
+    margin: 20px auto 0;
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    display: block;
     box-shadow: 5px 5px 40px black;
 }
 .skills h2{
@@ -30,6 +31,7 @@
     border:2px solid black;
     height: 160px;
     width: 280px;
+    max-width: 90vw;
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 1px black;
@@ -38,4 +40,36 @@
 .dark .skill-box{
     border:2px solid white;
     box-shadow: 5px 5px 1px white;
+}
+
+@media (max-width: 768px) {
+  #head{
+      font-size: 32px;
+  }
+  .skills{
+      margin-bottom: 100px;
+  }
+  #laptop{
+      margin-top: 10px;
+  }
+  .skills h2{
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  #head{
+      font-size: 26px;
+  }
+  .skill-box{
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      min-height: 140px;
+      padding: 12px 0;
+      margin: 12px;
+  }
+  .skills li{
+      font-size: 18px;
+  }
 }
