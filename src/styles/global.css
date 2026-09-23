@@ -36,42 +36,14 @@ html{
 .right a:hover{
     box-shadow: 5px 5px 10px darkviolet;
 }
-.theme-btn{
-    padding: 8px 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
-    background-color: darkviolet;
-    color: white;
-}
+
 #foot{
     height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.dark{
-    background-color: #121212;
-    color: white;
-}
-.dark .all{
-    background-image: radial-gradient(#1a1a1a,#2d0b45);
-}
-.dark .right a{
-    color: white;
-}
-.dark .right a:hover{
-    color: violet;
-}
-.dark .theme-btn{
-    background-color: white;
-    color: black;
-}
-.theme-btn{
-    height: 40px;
-    margin-top: 6px;
-}
+
 
 @media (max-width: 768px) {
   .nav{

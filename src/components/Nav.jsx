@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Nav = ({ darkMode, toggleTheme }) => {
+const Nav = () => {
 
   return (
     <div className='nav'>
@@ -18,10 +18,6 @@ const Nav = ({ darkMode, toggleTheme }) => {
             <a href="#projects"><h2>PROJECTS</h2></a>
 
             <a href='#contact'><h2>CONTACT</h2></a>
-
-            <button className='theme-btn' onClick={toggleTheme}>
-              {darkMode ? "Light" : "Dark"}
-            </button>
 
         </div>
 
