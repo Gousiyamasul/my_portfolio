@@ -26,7 +26,7 @@
     border-radius: 30%;
 }
 .aright{
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
@@ -36,7 +36,7 @@
 #desc{
     margin-bottom: 20px;
 }
-#btech,#inter,#school{
+#btech,#course{
     color: rgb(13, 165, 199);
 }
 

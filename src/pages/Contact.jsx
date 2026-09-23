@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 <div className="detailsd">
                     <h2>Masul Gousiya</h2>
-                    <h2><a href='mailto:masulgousiya@gmail.com' id='mail'>EMail</a></h2>
+                    <h2><a href='mailto:gousiyamasul@gmail.com' id='mail'>EMail</a></h2>
                     <h2><a href='https://www.linkedin.com/in/masul-gousiya-5843442b6' id='linked'>LinkedIn</a><br></br></h2>
                     <h2><a href='https://github.com/Gousiyamasul' id='git'>Git-Hub</a></h2>
                 </div>
